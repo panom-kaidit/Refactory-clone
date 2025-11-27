@@ -218,6 +218,13 @@ header{
     transform: scale(1.05);
 }
 
+/* Social media icons */
+.icons{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    size: 100px;
+}
 /* FOOTER BACKGROUND */
 .footer {
     display: flex;
