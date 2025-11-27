@@ -34,7 +34,7 @@ header{
 .nav-links a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-    font-size: 24px;
+    font-size: 20px;
     transition: 0.3s;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ header{
 
 .hero-buttons a {
     text-decoration: none;
-    font-size: 24px;
+    font-size: 18px;
     transition: 0.3s;
 }
 
@@ -100,6 +100,8 @@ header{
 
 .btn:hover {
     transform: scale(1.05);
+    background-color: #2b0057;
+    color: #eaeaea;
 }
 
 
@@ -201,6 +203,7 @@ header{
 
 /* All learn more into butoons */
 .Learnmore{
+    margin-top: 30; 
     display: inline-block;
     padding: 10px 20px;      
     background-color:rgb(171, 185, 93); 
