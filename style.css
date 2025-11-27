@@ -77,7 +77,7 @@ header{
 
 .btn {
     padding: 12px 25px;
-    border-radius: 30px;
+    border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
@@ -144,7 +144,7 @@ header{
 }
 
 .all_in_line a {
-    border-radius: 90px;
+    border-radius: 5px;
     background: rgb(171, 185, 93);
     color: black;
     text-decoration: none;
@@ -154,33 +154,40 @@ header{
     gap: 40px;
     position: relative;
     z-index: 2;
+    font-weight: normal;
 }
 
-.animate:hover{
-    transform: scale(1.05);
-}
 
-.Academic-section {
+.academic-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 60px 80px;
     gap: 40px;
-    background: #F5F7FA; 
+    background: #F5F7FA;
 }
 
-.academic-content {
+.Academic-content {
     width: 50%;
 }
 
-.academic-content {
+.Academic-content h1 {
     font-size: 42px;
     font-weight: 800;
     color: #5A2D7E;
     margin-bottom: 10px;
 }
 
-.academic-content {
+.Academic-content a{
+    border-radius: 5px;
+    background: rgb(171, 185, 93);
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    transition: 0.3s;
+    font-weight: normal;
+}
+.Academic-content h2 {
     font-size: 24px;
     color: #0BA7A2; 
     margin-bottom: 20px;
@@ -192,7 +199,21 @@ header{
     object-fit: cover;
 }
 
-
+/* All learn more into butoons */
+.Learnmore{
+    display: inline-block;
+    padding: 10px 20px;      
+    background-color:rgb(171, 185, 93); 
+    color: #000;             
+    text-decoration: none;   
+    border-radius: 8px;        
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+.Learnmore:hover {
+    background-color: #5d7d3c; 
+    transform: scale(1.05);
+}
 
 /* FOOTER BACKGROUND */
 .footer {
