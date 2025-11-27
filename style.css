@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* The header */
+header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+
+}
+.logo img {
+    width: 150px;
+    
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    block-size: auto;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #12c586;
+}
+.heros {
+    height: 100vh;
+    background-image: url(0G2A8223.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 20px;
+    color: white;
+    position: relative
+}
+.hero-buttons {
+    display: flex;
+    gap: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.btn {
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.button1 {
+    background: #5A2D7E;
+    color: black;
+}
+
+.button2{
+    background: rgb(224, 255, 52);
+    color: black;
+}
+
+.button3{
+    background: white;
+    color: black;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+.all_in_line {
+    display: flex;
+}
+
+.aall_in_line img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+.Academic-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 80px;
+    gap: 40px;
+    background: #F5F7FA; 
+}
+
+.academic-content {
+    width: 50%;
+}
+
+.academic-content {
+    font-size: 42px;
+    font-weight: 800;
+    color: #5A2D7E;
+    margin-bottom: 10px;
+}
+
+.academic-content  {
+    font-size: 24px;
+    color: #0BA7A2; 
+    margin-bottom: 20px;
+}
+
+.academy-image img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+
+/* FOOTER BACKGROUND */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 80px;
+    gap: 50px;
+
+    background: linear-gradient(90deg, #2b0057, #4c007f);
+    color: white;
+}
+
+/* Each column */
+.footer-col {
+    width: 23%;
+}
+
+.footer-col h2 {
+    color: #16D1C4; /* teal heading */
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.footer-col p,
+.footer-col a,
+.footer-col li {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #eaeaea;
+}
+
+.footer-col a {
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: #16D1C4;
+}
+
+/* Logo */
+.footer-logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Location link */
+.location-link {
+    color: #16D1C4;
+    font-weight: bold;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* Bottom divider section */
+.footer-bottom {
+    background: linear-gradient(90deg, #2b0057, #4c007f);
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.footer-bottom hr {
+    width: 90%;
+    margin: 0 auto 20px auto;
+    border-color: rgba(255,255,255,0.3);
+}
