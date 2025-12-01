@@ -45,7 +45,7 @@ header{
 
 .heros {
     height: 100vh;
-    background-image: url(0G2A8223.jpg);
+    background-image: url(images/0G2A8223.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -159,10 +159,10 @@ header{
     font-weight: normal;
 }
 
-
+/* This is the section for  refactory academy inthe main */
 .academic-section {
-    display: flex;
-    justify-content: space-between;
+    display: flex;  /* making the sections to be in horizontal way.*/
+    justify-content: space-between; 
     align-items: center;
     padding: 60px 80px;
     gap: 40px;
