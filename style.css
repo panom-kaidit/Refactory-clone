@@ -69,39 +69,43 @@ header{
     z-index: 2;
 }
 
-.hero-buttons a {
-    text-decoration: none;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
 .btn {
     padding: 12px 25px;
     border-radius: 5px;
-    text-decoration: none;
+    font-size: 18px;
     font-weight: bold;
-    transition: 0.3s;
+    text-decoration: none;
+    transition: transform 0.3s, background-color 0.3s;
+    display: inline-block;
 }
 
 .button1 {
-    background: #5A2D7E;
-    color: rgb(255, 255, 255);
+    background-color: #5A2D7E;
+    color: #ffffff;
 }
 
-.button2{
-    background: rgb(192, 211, 82);
-    color: rgb(255, 255, 255);
+.button1:hover {
+    background-color: #ffffff;
+    color:#663367;
+}
+.button2 {
+    background-color: rgb(192, 211, 82);
+    color: #000000;
 }
 
-.button3{
-    background: white;
-    color: black;
+.button2:hover {
+    background-color: #ffffff;
+    color:#663367;
 }
 
-.btn:hover {
-    transform: scale(1.05);
-    background-color: #2b0057;
-    color: #eaeaea;
+.button3 {
+    background-color: #ffffff;
+    color: #341539;
+    border: 2px solid #341539;
+}
+.button3:hover {
+    background-color: #663367;
+    color:#FFFFFF;
 }
 
 
