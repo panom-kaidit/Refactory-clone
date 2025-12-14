@@ -64,50 +64,65 @@ header{
 .hero-buttons {
     margin-top: 30px;
     display: flex;
-    gap: 40px;
-    position: relative;
+    gap: 30px;
     z-index: 2;
 }
 
+/* Base button style */
 .btn {
-    padding: 12px 25px;
-    border-radius: 5px;
+    padding: 14px 28px;
+    border-radius: 6px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
-    transition: transform 0.3s, background-color 0.3s;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    transition: all 0.3s ease;
 }
 
+/* Arrow animation */
+.btn span {
+    transition: transform 0.3s ease;
+}
+
+.btn:hover span {
+    transform: translateX(6px);
+}
+
+/* Button 1 */
 .button1 {
     background-color: #5A2D7E;
     color: #ffffff;
 }
 
 .button1:hover {
-    background-color: #ffffff;
-    color:#663367;
+    background-color: #4a2367;
 }
+
+/* Button 2 */
 .button2 {
-    background-color: rgb(192, 211, 82);
-    color: #000000;
+    background-color: #c0d352;
+    color: #ffffff;
 }
 
 .button2:hover {
-    background-color: #ffffff;
-    color:#663367;
+    background-color: #a9be42;
+    color: #ffffff;
 }
 
+/* Button 3 */
 .button3 {
     background-color: #ffffff;
     color: #341539;
     border: 2px solid #341539;
 }
+
 .button3:hover {
     background-color: #663367;
-    color:#FFFFFF;
+    color: #ffffff;
+    border-color: #663367;
 }
-
 
 .explore {
     margin-top: 30px;
