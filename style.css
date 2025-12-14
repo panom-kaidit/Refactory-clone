@@ -97,7 +97,8 @@ header{
 }
 
 .button1:hover {
-    background-color: #4a2367;
+    background-color: #ffffff;
+    color: #663367
 }
 
 /* Button 2 */
@@ -107,15 +108,15 @@ header{
 }
 
 .button2:hover {
-    background-color: #a9be42;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #663367;
 }
 
 /* Button 3 */
 .button3 {
     background-color: #ffffff;
-    color: #341539;
-    border: 2px solid #341539;
+    color: #663367;
+    border: 2px solid #ffffff;
 }
 
 .button3:hover {
